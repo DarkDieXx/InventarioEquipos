@@ -40,13 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="c4_persistencia\GestorODBC.cs" />
+    <Compile Include="c4_persistencia\sqlserver\ConexionSqlServer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="c2_aplicacion\" />
     <Folder Include="c3_dominio\contrato\" />
     <Folder Include="c3_dominio\entidad\" />
-    <Folder Include="c4_persistencia\" />
     <Folder Include="c5_transversal\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
